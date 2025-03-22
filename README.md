@@ -29,13 +29,15 @@ A simple and interactive fitness tracking web application built with **Python** 
 ---
 
 ## 📂 Project Structure
+```
 📁 Fitness_Tracker/ 
 ├── datasets/
-│ ├── cleaned_data.csv 
-│ └── user_logs.csv 
+│   ├── cleaned_data.csv 
+│   └── user_logs.csv 
 ├── calories_burned_model.pkl 
 ├── app.py 
 └── README.md
+```
 
 ---
 
@@ -54,4 +56,32 @@ A simple and interactive fitness tracking web application built with **Python** 
 ```bash
 git clone https://github.com/your-username/personal-fitness-tracker.git
 cd personal-fitness-tracker
+```
 
+2. **Install required packages**
+Make sure you have Python installed. Then install all the necessary dependencies using:
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the Streamlit app**
+Use the following command to start the app:
+```bash
+streamlit run app.py
+```
+
+4. **Explore the application**
+Once the app launches, your default web browser will open the Streamlit interface.  
+From there, you can:
+- Enter your workout details in the sidebar
+- View calorie predictions
+- Explore logs and visual insights
+- Download or clear your workout history
+
+---
+
+✅ *Note*: Make sure the following files are present in the project directory:
+- `calories_burned_model.pkl` (pre-trained model file)
+- `datasets/cleaned_data.csv` (for similar user comparison)
+
+If not present, update paths or add the required files to ensure smooth functioning.
