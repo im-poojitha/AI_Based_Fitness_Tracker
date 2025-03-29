@@ -1,4 +1,4 @@
-# 💪 AI based Personal Fitness Tracker App
+# 💪🏼 AI based Personal Fitness Tracker App
 
 A simple and interactive fitness tracking web application built with **Python** and **Streamlit**, designed to estimate calories burned during workouts and log fitness activities. This project was developed as part of AICTE- Internship on AI: Transformative Learning with TechSaksham, to demonstrate applied knowledge of machine learning and data visualization.
 You can view it 👉🏼 [here](https://im-poojitha-ai-based-fitness-tracker-app-dfr7ab.streamlit.app/)
